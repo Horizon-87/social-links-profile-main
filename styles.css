@@ -1,0 +1,92 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
+}
+.container{
+  position: relative;
+  height: 60%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color:  hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding: 50px;
+}
+.upper{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+  align-self: center;
+}
+img{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  align-self: center;
+  margin-top: 3rem;
+}
+h3{
+  color:  hsl(75, 94%, 57%);
+
+}
+h1 ,p ,button{
+  color:  hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+p{
+  font-weight: 400;
+  margin: 20px;
+}
+button{
+  height: 36px;
+  width: 15rem;
+  background-color: hsl(0, 0%, 20%);
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0px;
+  margin: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+}
+h1{
+  margin-bottom: 0;
+  color: hsl(0, 0%, 100%);
+}
+@media (min-width : 175px) and (max-width : 375px) {
+  .container{
+    height: 70%;
+    width: 70%;
+  }
+  .upper ,.button{
+    height: 90%;
+    width: 90%;
+  }
+  button{
+    width: 15rem;
+  }
+  img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 3rem;
+  }
+}
